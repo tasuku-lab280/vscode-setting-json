@@ -1,0 +1,21 @@
+{
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false, // 常に新しいタブでファイルで開く
+  "diffEditor.ignoreTrimWhitespace": false,
+  "ruby.intellisense": "rubyLocate",
+  "ruby.rubocop.executePath": "/Users/user/.rbenv/shims/",
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true
+  },
+}
+
